@@ -1,0 +1,5 @@
+# UITableView-ReuseCell
+UITableViewCell永不为空
+
+通过方法欺骗，在UITableView获取重用cell失败的时候，自动注册对应类名为id的cell，然后再次获取重用cell。
+可以避免开发时忘记注册cell，并且减少重复代码
